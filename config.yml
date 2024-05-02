@@ -1,0 +1,92 @@
+baseURL: "https://fulinyan.github.io/" 
+title: Fulin Yan
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: Resume
+          url: resume/
+          weight: 2
+
+params:
+    description: "I am a PHD candidate in applied mathematics at the University of Bordeaux. I work on the generic hybrid heuristic method for the arc flow problem that combines machine learning techniques with optimization algorithms. I am interested in the application of machine learning in the field of operations research."
+    author: Fulin Yan
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Fulin Yan
+          subtitle: "I am a PHD candidate in applied mathematics at the University of Bordeaux. I work on the generic hybrid heuristic method for the arc flow problem that combines machine learning techniques with optimization algorithms. I am interested in the application of machine learning in the field of operations research."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Fulin Yan
+          buttons:
+            - name: Resume
+              url: "resume/"
+            - name: Papers
+              url: papers/
+    socialIcons:
+        - name: CV
+          url: "/cv_fulin.pdf"
+        - name: Email
+          url: mailto:fulin.yan@math.u-bordeaux.fr
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
+        - name: GitHub
+          url: https://github.com/fragilePad
+        - name: LinkedIn
+          url: https://fr.linkedin.com/in/fulin-yan-2186a1182/en
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Fulin Yan"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
