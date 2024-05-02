@@ -4,7 +4,9 @@ description: "Resume"
 ---
 
 # Resume
+---
 ## Working experience
+---
 ### Collaboration between [IMB](https://www.math.u-bordeaux.fr/imb) and [CATIE](https://www.catie.fr/), Talence France -- PhD CIFRE contract
 #### Date: March 2023 - March 2026
 
@@ -39,7 +41,9 @@ Optimization of the deployment of base stations for which more flexibility is in
 
 Keywords: Multi-objective optimization, mixed-integer programming
 
+---
 ## Education
+---
 ### University of Bordeaux, Bordeaux France -- PhD
 #### Date: March 2023 - March 2026
 
